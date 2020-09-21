@@ -41,3 +41,68 @@ header.header-principal {
         p {margin: 25px 0;}
     }
 }
+
+.interet {
+    background: $interetbg;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    padding: 65px 0;
+    .conteneur > h3 {
+        font-size: 2.5rem;
+        font-weight: 700;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .conteneur > p {
+        text-align: center;
+        font-size: 1.2rem;
+        margin-top: 18px;
+    }
+}
+.cartes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+
+    .carte {
+        width: 350px;
+        text-align: center;
+        box-shadow: $bshadow;
+        padding: 20px;
+        margin-top: 50px;
+        background-color: $wh;
+
+        h4 {text-transform: uppercase;font-size: 1.2rem;}
+        p {font-size: 1.2rem;}
+        img {width: 150px;}
+    }
+}
+
+.citation {
+    padding: 100px 0;
+    background: $citationbg;
+    background-size: 100% auto;
+    background-position: center;
+    color: $wh;
+    .conteneur > h3 {
+        font-size: 2.5rem;
+        text-transform: uppercase;
+        font-weight: 700;
+    }
+    .conteneur > p {
+        margin-top: 20px;
+        font-size: 1.2rem;
+    }
+}
+
+footer.footer-principal {
+    background-color: $bl;
+    padding: 60px;
+    color: $wh;
+    .copyright {
+        margin: auto;
+        text-align: center;
+        font-size: 1.2rem;
+    }
+}
